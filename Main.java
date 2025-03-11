@@ -6,8 +6,11 @@ public class Main {
         Bicycle bicycle = new Bicycle();
 
         Vehicle[] racers = {car, bicycle,boat};
-        car.honk();
-        bicycle.honk();
-        boat.honk();
+
+
+        for (Vehicle x: racers){
+            x.honk();
+
+        }
     }
 }
